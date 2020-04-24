@@ -13,7 +13,7 @@ if (!$_POST['login']=="" && !$_POST['mdp']=="")
 $name = $_POST['login'];
 $pass = $_POST['mdp'];
 // Connexion à la base de données
-$vConn = new PDO('pgsql:host=tuxa.sme.utc;port=5432;dbname=dbnf17p159', 'nf17p159', 'SCJ8aveB');
+$vConn = new PDO('pgsql:host=****;port=*****;dbname=*****', '*****', '******');
 $query = "SELECT mdp from Utilisateur where mail ='$name'";
 $result = $vConn->prepare($query);
 $result->execute();// écriture, exécution et test de la requête

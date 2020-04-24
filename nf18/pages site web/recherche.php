@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 </head>
 <?php
-$vConn = new PDO('pgsql:host=tuxa.sme.utc;port=5432;dbname=dbnf17p159', 'nf17p159', 'SCJ8aveB');
+$vConn = new PDO('pgsql:host=****;port=*****;dbname=*****', '*****', '******');
 $var=$_POST['recherche'];
 if ($var=="") {
         // Renvoie l'utilisateur à la racine du serveur

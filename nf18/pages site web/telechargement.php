@@ -8,7 +8,7 @@ if ($name=="" || $pass=="") {
         // Met fin au script par mesure de sécurité
         die();
     }
-$vConn = new PDO('pgsql:host=tuxa.sme.utc;port=5432;dbname=dbnf17p159', 'nf17p159', 'SCJ8aveB');
+$vConn = new PDO('pgsql:host=****;port=*****;dbname=*****', '*****', '******');
 $var=$_POST['telechargement'];
 print $var;
 $query="INSERT INTO Télécharge VALUES ('$var','$name')";
