@@ -1,0 +1,5 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "C:\wamp64\www\sr03devoir\config\.htpasswd"
+Require valid-user
+php_value session.cookie_httponly 1
