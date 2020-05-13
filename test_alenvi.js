@@ -42,10 +42,10 @@ function version(date, subscription) {
         do {
             i++;
             if (date < versions[i].startDate) {
-                break;
+                return i - 1;
             }
         } while (i < versions.length);
-        return i; // on part du principe que la première version s'appelle version 1
+        return i; // on part du principe que la première version s'appelle version 0
     }
 }
 
