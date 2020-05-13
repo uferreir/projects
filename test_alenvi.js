@@ -45,7 +45,7 @@ function version(date, subscription) {
                 break;
             }
         } while (i < versions.length);
-        return i; // on part du principe que la première version s'appelle version 0
+        return i; // on part du principe que la première version s'appelle version 1
     }
 }
 
